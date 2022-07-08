@@ -53,7 +53,7 @@ namespace Mnemosyne3.Configuration
         public Config()
         {
         }
-        public Config(string UserName, ArchiveSubredditJson[] Subreddits, string Password, string OAuthSecret = null, string OAuthClientId = null, bool ArchiveLinks = false, string ArchiveService = "http://www.archive.fo", string RedirectURI = "https://github.com/Mnemosyne-20/Mnemosyne-3")
+        public Config(string UserName, ArchiveSubredditJson[] Subreddits, string Password, string OAuthSecret = null, string OAuthClientId = null, bool ArchiveLinks = false, string ArchiveService = "http://www.archive.fo", string RedirectURI = "https://github.com/Mnemosyne-20/Mnemosyne-3.0")
         {
             if (!Directory.Exists("./Data/"))
             {
